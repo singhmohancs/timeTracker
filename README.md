@@ -1,7 +1,6 @@
-# timer-app
+# Time Tracker App
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.16.0.
+Demo : https://singhmohancs.github.io/timeTracker/
 
 ## Build & development
 
