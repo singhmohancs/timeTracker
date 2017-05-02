@@ -1,0 +1,13 @@
+<div class="jumbotron">
+  <h1 data-ng-bind="$ctrl.appName"> </h1>
+  <timer>{{days}} days, {{hours}} hours, {{minutes}} minutes, {{seconds}} seconds, {{millis}} milliseconds.</timer>
+
+   <div class="tracker clear" ng-controller="TrackerController" >
+                <div class="actions align-center">
+                    <span class="counter">{{ counter }}</span>
+                    <button class="button button-inline button-large button-green" ng-click="startTracker()" ng-if="!status.active"><i class="icon-play"></i> Start</button>
+                    <button class="button button-inline button-large button-red" ng-click="stopTracker()" ng-if="status.active"><i class="icon-stop"></i> Stop</button>
+                </div>
+                </div>
+
+</div>

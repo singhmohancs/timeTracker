@@ -1,0 +1,91 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+body {
+    padding: 0;
+    background: #333333;
+}
+
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+
+.header,
+.marketing,
+.footer {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/* Custom page header */
+
+.header {
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 10px;
+    /* Make the masthead heading the same height as the navigation */
+    h3 {
+        margin-top: 0;
+        margin-bottom: 0;
+        line-height: 40px;
+        padding-bottom: 19px;
+    }
+}
+
+.wrapper {
+    width: 500px;
+    margin: 50px auto;
+    .timer-container {
+        background: #242424;
+        border-color: rgb(36, 36, 36);
+        -webkit-box-shadow: 0px -1px 57px 15px rgba(0, 0, 0, 0.31);
+        -moz-box-shadow: 0px -1px 57px 15px rgba(0, 0, 0, 0.31);
+        box-shadow: 0px -1px 57px 15px rgba(0, 0, 0, 0.31);
+        .timer-content {
+            font-family: 'Orbitron', sans-serif;
+            color: #9ec760;
+            margin: 30px auto;
+            span {
+                width: 40px;
+                display: inline-block;
+            }
+        }
+        .panel-footer {
+            padding: 0;
+            .btn {
+                border-radius: 0;
+                border: 0 none;
+                border-right: 1px solid #ccc;
+            }
+        }
+    }
+    .worklog-container {
+        .panel-body {
+            padding: 0;
+        }
+        .list-group {
+            border-radius: 0;
+            .list-group-item {
+                border-radius: 0;
+                .btn-remove {
+                    visibility: hidden;
+                }
+                &:hover {
+                    .btn-remove {
+                        visibility: visible;
+                    }
+                }
+                &:last-child {
+                    border-bottom: 0 none;
+                }
+            }
+        }
+    }
+}
