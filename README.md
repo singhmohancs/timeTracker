@@ -1,6 +1,6 @@
 # Time Tracker App
 
-Demo : https://singhmohancs.github.io/timeTracker/
+Demo : https://singhmohancs.github.io/timeTracker/app
 
 ## Build & development
 
