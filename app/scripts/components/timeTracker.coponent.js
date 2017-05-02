@@ -161,7 +161,7 @@
             localStorageService.set('worklogs', $ctrl.worklogs);
           }
 
-          $scope.$watch(function(){
+         /* $scope.$watch(function(){
             return localStorageService.get('isRunning');
           }, function(newValue, oldValue){
             if(newValue === oldValue){
@@ -173,7 +173,7 @@
             }else{
               stop();
             }
-          });
+          });*/
 
 
         }
